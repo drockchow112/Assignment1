@@ -18,3 +18,12 @@
     display: flex;
     justify-content: center;
 }
+
+body {
+    text-align: center;
+}
+
+a {
+    display: block;
+    padding: 20px;
+}
