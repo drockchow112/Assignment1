@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.img-dog2 {
+    width: 300px;
+    height: 200px;
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
