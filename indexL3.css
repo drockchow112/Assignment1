@@ -15,14 +15,14 @@ body {
 }
 
 .dropdown {
-  position: right;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 button {
-  position: bottom;
+  position: relative;
   width: 100px;
   height: 200px;
   font-size: 24px;
@@ -35,7 +35,7 @@ button {
 }
 
 ul {
-  position: center;
+  position: static;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -55,7 +55,7 @@ ul li {
 
 ul li a {
   display: block;
-  padding: 10px;
+  padding: 10.49px;
   text-align: center;
   text-decoration: none;
   background: #262626;
