@@ -1,6 +1,7 @@
-div {
+#container {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 .img-dog2 {
@@ -38,7 +39,6 @@ ul {
   position: static;
   margin: 0;
   padding: 0;
-  width: 100%;
   background: #ccc;
   transform-origin: left;
   transform: perspective(1000px) rotatey(90deg);

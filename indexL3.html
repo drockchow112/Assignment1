@@ -1,44 +1,39 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="indexL3.css" />
-  </head>
 
-  <body>
+<head>
+    <link rel="stylesheet" href="indexL3.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("ul").toggleClass("active");
+            });
+        });
+    </script>
+</head>
+
+<body>
+
     <h1>Thank You</h1>
-    <div>
-      <img
-        class="img-dog2"
-        src="saddog2.png"
-        alt="doggy"
-        width="400"
-        height="400"
-      />
-      <div class="dropdown">
+    <div id="container">
+        <img class="img-dog2" src="saddog2.png" alt="doggy" width="400" height="400" />
+
         <button>Donate</button>
         <ul class="active">
-          <li><a href="#">link 1</a></li>
-          <li><a href="#">link 2</a></li>
-          <li><a href="#">link 3</a></li>
-          <li><a href="#">link 4</a></li>
-          <li><a href="#">link 5</a></li>
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+            <li><a href="#">link 5</a></li>
         </ul>
-      </div>
-      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-      <script type="text/javascript">
-        $(document).ready(function () {
-          $("button").click(function () {
-            $("ul").toggleClass("active");
-          });
-        });
-      </script>
     </div>
-
-    <p>Please feel free to donate monthly.</p>
+    <p>Please feel free to donate monthly. </p>
 
     <p>spread the words to friends.</p>
 
     <p>All funds will go to appropriate organization!</p>
 
     <a href="index.html">Go back to the homepage.</a>
-  </body>
+</body>
+
 </html>
