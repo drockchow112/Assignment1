@@ -1,6 +1,5 @@
 <html>
   <head>
-    <script type="dropdown" src="dropdown.js"></script>
     <link rel="stylesheet" href="indexL3.css" />
   </head>
 
@@ -14,16 +13,26 @@
         width="400"
         height="400"
       />
-
-      <div class="button_&&_dropdown_menu">
-        <button onclick="myFunction()" class="dropbtn">Donate</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
+      <div class="dropdown">
+        <button>Donate</button>
+        <ul class="active">
+          <li><a href="#">link 1</a></li>
+          <li><a href="#">link 2</a></li>
+          <li><a href="#">link 3</a></li>
+          <li><a href="#">link 4</a></li>
+          <li><a href="#">link 5</a></li>
+        </ul>
       </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $("button").click(function () {
+            $("ul").toggleClass("active");
+          });
+        });
+      </script>
     </div>
+
     <p>Please feel free to donate monthly.</p>
 
     <p>spread the words to friends.</p>
